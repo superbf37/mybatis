@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.superbf.mybatis.dao.TagMapper" >
+  <resultMap id="BaseResultMap" type="org.superbf.mybatis.entity.Tag" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="tagName" property="tagname" jdbcType="VARCHAR" />
+    <result column="aliasName" property="aliasname" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.superbf.mybatis.dao.UserInfoMapper" >
+  <resultMap id="BaseResultMap" type="org.superbf.mybatis.entity.UserInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="avatar" property="avatar" jdbcType="VARCHAR" />
+    <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="CHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="signature" property="signature" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="announcement" property="announcement" jdbcType="VARCHAR" />
+    <result column="telegram" property="telegram" jdbcType="VARCHAR" />
+    <result column="wechart" property="wechart" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
